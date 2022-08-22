@@ -1,5 +1,7 @@
+// TC: O(n)
+
 public class LinearSearch {
-    // TC: O(n)
+    
     public static int linearSearch(int[] arr, int key) {
         
         for (int i = 0; i < arr.length; i++) {
