@@ -1,7 +1,7 @@
 // Prefix sum method
 // TC: O(n^2)
 
-public class MaxSubArraySum2 {
+public class MaxSubArraySum2_PrefixSum {
 
     public static int findMaxSubArray(int arr[]) {
         // finding prefix sum
