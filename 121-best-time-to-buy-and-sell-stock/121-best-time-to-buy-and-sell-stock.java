@@ -4,6 +4,8 @@ class Solution {
         int right[] = new int[length];
         int maxProfit = 0;
         
+        // Right aux array to see the right most max number from a perticular index
+        
         right[length-1] = prices[length-1];
         for (int i = length-2; i>= 0; i--){
             right[i] = Math.max(prices[i], right[i+1]);
