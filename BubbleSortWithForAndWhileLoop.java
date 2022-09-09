@@ -1,3 +1,7 @@
+// Bubble Sort
+// TC: O(n^2)
+// SC: O(1)
+
 public class BubbleSortWithForAndWhileLoop {
 
     public static void bubbleSort(int arr[]) {
